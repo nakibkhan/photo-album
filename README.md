@@ -23,7 +23,7 @@ The Java JAR file can be run in multiple ways to deploy either a Console Applica
 
 ## Usage Console
 
-Running the Java JAR file with arguments will output the results in the console environment 
+Running the Java JAR file with arguments ("photo-album {albumId}") will output the results in the console environment 
 
 ```bash
 java -jar photo-album-1.0-SNAPSHOT.jar photo-album 3
@@ -31,7 +31,7 @@ java -jar photo-album-1.0-SNAPSHOT.jar photo-album 3
 
 ## Usage Web 
 
-Run the Java Jar without any arguments 
+Run the Java JAR without any arguments 
 
 ```bash
 java -jar photo-album-1.0-SNAPSHOT.jar 

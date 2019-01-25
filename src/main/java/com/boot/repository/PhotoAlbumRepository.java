@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-class PhotoAlbumRepository {
+public class PhotoAlbumRepository {
 
     public List<PhotoAlbum> findAll()   {
         try {

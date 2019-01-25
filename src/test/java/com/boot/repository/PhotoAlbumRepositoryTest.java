@@ -32,5 +32,11 @@ public class PhotoAlbumRepositoryTest {
         assert photoAlbumList.get(0).getAlbumId() == 3;
     }
 
+    @Test
+    public void noResult()  {
+        List<PhotoAlbum> photoAlbumList = photoAlbumRepository.findByAlbumId(8589);
+        assert photoAlbumList.size() == 0;
+    }
+
 
 }

@@ -33,10 +33,7 @@ public class PhotoAlbum {
         return thumbnailUrl;
     }
 
-    public int getId()  {
-        return this.id;
-
-    }
+    public int getId()  { return this.id;}
 
     public String getTitle()   {
         return this.title;
